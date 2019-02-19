@@ -62,8 +62,7 @@ I began using LENET architecture with single lap of data. One important aspect o
 Using a single lap of data, I began training above CNN. In this case the input is the image taken from a car on track and output is steering angle. To be more clear, steering angle(SA) = 0 when the car drives straight. SA < 0, when turning left and SA > 0 when turning right. Sample images are shown below.
 
 ![alt text][image2]
-![alt text][image3]
-![alt text][image4]
+
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
